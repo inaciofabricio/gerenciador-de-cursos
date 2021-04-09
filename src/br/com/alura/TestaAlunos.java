@@ -42,6 +42,7 @@ public class TestaAlunos {
 		System.out.println();
 		
 		List<String> alunosEmLista = new ArrayList<>(alunos);
+		
 		alunosEmLista.forEach(aluno -> {
 			System.out.println(aluno);
 		});
